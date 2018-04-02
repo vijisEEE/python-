@@ -1,3 +1,3 @@
-a = range(10)
-b = sum(a)
-print b
+def arithmatic_sum(n,a,b):
+    return ((((n-1)*b) + 2*a)*n)//2
+
